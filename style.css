@@ -49,15 +49,26 @@ main {
     margin: 0 auto;
   }
 
+  .two-columns {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .two-columns .section {
+    width: 50%;
+  }
+
 section {
     padding: 62px 0px 0px 0px;
 }
 
 code {
+    float: right;
     font-family: 'Courier New', Courier, monospace;
 }
 
 footer {
+    padding: 30px;
     background-color: beige;
   }
 
